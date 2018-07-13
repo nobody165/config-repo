@@ -31,7 +31,7 @@ spring:
       password: passwd
     datasource:
         name: mic_db
-        url: jdbc:mysql://172.16.3.131:3306/mic_db?useSSL=false&useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+        url: jdbc:mysql://172.16.3.131:3306/mic_db?useSSL=false&useUnicode=true&characterEncoding=UTF-8
         username: radlly
         password: radlly.XU82!
         # 使用druid数据源
