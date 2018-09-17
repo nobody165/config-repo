@@ -67,9 +67,10 @@ spring:
 mybatis:
     mapper-locations: classpath:mapper/**/*.xml
 #    config-location: classpath:mybatis.xml
+#logging:
+#    config: classpath:log4j2.xml
 logging:
-    config: classpath:log4j2.xml
-
+    config: classpath:log4j2.properties
 request:
   ignore: 
     startWith:  #split with ","
